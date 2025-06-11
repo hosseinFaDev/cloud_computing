@@ -1,11 +1,12 @@
 name: Build and Push Docker Image
 
 on:
-  push:
-    branches:
-    # set Trigger on main branch
-      - main  
   workflow_dispatch:
+  # push:
+    # branches:
+    # set Trigger on main branch
+      # - main  
+  
 
 jobs:
   build:
