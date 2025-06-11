@@ -5,6 +5,7 @@ on:
     branches:
     # set Trigger on main branch
       - main  
+  workflow_dispatch:
 
 jobs:
   build:
